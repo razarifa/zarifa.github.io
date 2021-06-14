@@ -1,3 +1,10 @@
+@font-face {
+ font-family: "indie_flowerregular";
+ src: url("../css/fonts/indieflower-regular-webfont.woff2") format("woff2"),
+  url("../css/fonts/indieflower-regular-webfont.woff") format("woff");
+ font-weight: normal;
+ font-style: normal;
+}
 *,
 body,
 input {
@@ -13,5 +20,5 @@ main {
  display: flex;
  justify-content: center;
  align-items: center;
- font-family: "Indie Flower", cursive;
+ font-family: "indie_flowerregular";
 }
